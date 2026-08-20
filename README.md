@@ -1,15 +1,12 @@
-# Projekt
+# NEXORA IT weboldal
 
-Két egymástól független Next.js weboldal található ebben a repositoryban.
+A repositoryban követett Next.js projekt a `website/` mappában található.
 
-- `website/` – NEXORA IT weboldal
-- `csiperkegomba/` – az új csiperkegomba weboldal kiinduló projektje
-
-Mindkét oldal külön telepíthető és indítható a saját mappájából:
+Telepítés és indítás:
 
 ```powershell
 npm.cmd install
 npm.cmd run dev
 ```
 
-Ha egyszerre futnak, a második projektet eltérő porton indítsd: `npm.cmd run dev -- -p 3001`.
+A helyi `csiperkegomba/` projekt szándékosan nincs Gitben követve.
