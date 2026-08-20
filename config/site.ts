@@ -1,0 +1,1 @@
+export const site={name:"NEXORA IT",url:"https://PELDA-DOMAIN.HU",email:"KAPCSOLATI-EMAIL@PELDA.HU",phone:"+36 XX XXX XXXX",area:"SZOLGÁLTATÁSI TERÜLET",tagline:"Megbízható informatikai háttér kis- és középvállalkozásoknak."};
