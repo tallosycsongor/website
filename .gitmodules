@@ -1,0 +1,33 @@
+[submodule "csaladiindulo"]
+	path = csaladiindulo
+	url = https://github.com/tallosycsongor/csaladiindulo.git
+[submodule "gyogyszervan"]
+	path = gyogyszervan
+	url = https://github.com/tallosycsongor/gyogyszervan.git
+[submodule "helyifigyelo"]
+	path = helyifigyelo
+	url = https://github.com/tallosycsongor/helyifigyelo.git
+[submodule "homersekletfigyelo"]
+	path = homersekletfigyelo
+	url = https://github.com/tallosycsongor/homersekletfigyelo.git
+[submodule "kosaror"]
+	path = kosaror
+	url = https://github.com/tallosycsongor/kosaror.git
+[submodule "lead-lista"]
+	path = lead-lista
+	url = https://github.com/tallosycsongor/lead-lista.git
+[submodule "locsolor"]
+	path = locsolor
+	url = https://github.com/tallosycsongor/locsolor.git
+[submodule "mikorjarle"]
+	path = mikorjarle
+	url = https://github.com/tallosycsongor/mikorjarle.git
+[submodule "neon-pulse"]
+	path = neon-pulse
+	url = https://github.com/tallosycsongor/neon-pulse.git
+[submodule "nexorawebsite"]
+	path = nexorawebsite
+	url = https://github.com/tallosycsongor/nexorawebsite.git
+[submodule "oddsagent"]
+	path = oddsagent
+	url = https://github.com/tallosycsongor/oddsagent.git

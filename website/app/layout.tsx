@@ -1,3 +1,0 @@
-import type {Metadata} from "next";import "./globals.css";import {site} from "@/config/site";
-export const metadata:Metadata={metadataBase:new URL(site.url),title:"NEXORA IT | Rendszergazda és IT támogatás KKV-knak",description:"Rendszergazdai támogatás, Microsoft 365, Linux szerverüzemeltetés, mentések, monitoring és IT állapotfelmérés kis- és középvállalkozások számára.",openGraph:{title:"NEXORA IT | Megbízható IT háttér KKV-knak",description:site.tagline,type:"website",locale:"hu_HU",url:site.url}};
-export default function Layout({children}:{children:React.ReactNode}){return <html lang="hu"><body>{children}</body></html>}

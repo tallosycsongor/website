@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Irattár — helyi dokumentum-asszisztens</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><span class="eyebrow">HELYI · OFFLINE · VISSZAVONHATÓ</span><h1>Irattár</h1></div>
+      <div class="status"><i></i> Nem kapcsolódik az internethez</div>
+    </header>
+
+    <section class="hero">
+      <div><p class="kicker">A saját gépeden marad.</p><h2>Rend a dokumentumokban,<br><em>biztonságosan.</em></h2>
+      <p>Átvizsgálja a kijelölt mappát, felismeri a dokumentumokat és képeket, majd visszavonható rendszerezési javaslatokat készít.</p></div>
+      <div class="setup card">
+        <label for="root">Kezelt mappa teljes útvonala</label>
+        <div class="field"><input id="root" placeholder="D:\Dokumentumok"><button id="save">Mentés</button></div>
+        <small>Az alkalmazás ezen a mappán kívül semmit sem módosíthat.</small>
+      </div>
+    </section>
+
+    <nav>
+      <button class="tab active" data-view="suggestions">Javaslatok <b id="suggestionCount">0</b></button>
+      <button class="tab" data-view="history">Előzmények</button>
+      <button id="scan" class="primary">Mappa átvizsgálása</button>
+    </nav>
+
+    <div id="message" role="status"></div>
+    <section id="suggestions" class="view active">
+      <div class="summary">
+        <div><span>Dokumentum</span><strong id="docCount">—</strong></div>
+        <div><span>Kép</span><strong id="imageCount">—</strong></div>
+        <div><span>Lehetséges másolat</span><strong id="duplicateCount">—</strong></div>
+      </div>
+      <div id="files" class="cards"><div class="empty">Add meg a mappát, majd indítsd el az átvizsgálást.</div></div>
+    </section>
+    <section id="history" class="view"><div id="operations" class="cards"></div></section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
